@@ -1,0 +1,25 @@
+/* src/styles/styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card button {
+  margin-top: 5px;
+}

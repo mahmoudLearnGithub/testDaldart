@@ -52,7 +52,7 @@ function InfiniteList() {
         <Card key={index} post={post} />
       ))}
       <div ref={observer} />
-      {loading && <p>Loading more...</p>}
+      {loading && <span>Loading more...     </span>}
     </div>
   );
 }

@@ -1,13 +1,15 @@
-import React from 'react';
-import InfiniteList from './components/InfiniteList';
+import React from "react";
+import Tabs from "./components/Tabs";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Reddit Infinite Scrolling</h1>
-      <InfiniteList />
+    <div className="container" style={{ fontFamily: "Arial, sans-serif", padding: "" }}>
+      <div className="title">
+      <h1>/r/FlutterDev</h1>
+        </div>
+      <Tabs />
     </div>
   );
-}
+};
 
 export default App;

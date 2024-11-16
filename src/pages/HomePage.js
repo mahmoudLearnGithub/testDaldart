@@ -25,7 +25,7 @@ function HomePage() {
   return (
     <div className="home-page">
       {error && <p>Error: {error}</p>}
-      {loading ? <p>Loading...</p> : <InfiniteList items={posts} />}
+      {loading ? <span>Loading more...   </span> : <InfiniteList items={posts} />}
     </div>
   );
 }
